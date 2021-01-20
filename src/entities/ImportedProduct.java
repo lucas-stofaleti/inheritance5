@@ -30,7 +30,7 @@ public class ImportedProduct extends Product
 		return this.name +
 				" $ " +
 				String.format("%.2f", this.totalPrice()) + 
-				"(Customs fee: $ " + String.format("%.2f", this.customsFee);	
+				" (Customs fee: $ " + String.format("%.2f", this.customsFee) + ")";	
 	}
 	
 }
